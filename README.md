@@ -1,0 +1,1 @@
+# polish-company-bankruptcy-scorecard
