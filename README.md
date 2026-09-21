@@ -109,15 +109,8 @@ LightGBM의 테스트 성능이 더 높았지만, 두 모델은 입력 표현과
 
 확률이 (p)일 때 점수는 다음과 같이 계산합니다.
 
-$$
-\mathrm{Score}(p)
-=
-\mathrm{Offset}
-+
-\mathrm{Factor}\log\left(\frac{1-p}{p}\right),
-\qquad
-\mathrm{Factor}=\frac{20}{\log 2}.
-$$
+> **Score(p) = Offset + Factor × ln((1 − p) / p)**  
+> **Factor = 20 / ln(2)**
 
 훈련 표본의 예측확률 분위수로 5개 위험등급 경계를 정하고, 같은 경계를 검증·테스트 표본에 적용했습니다. 1등급은 상대적으로 안전한 집단, 5등급은 상대적으로 위험한 집단입니다.
 
