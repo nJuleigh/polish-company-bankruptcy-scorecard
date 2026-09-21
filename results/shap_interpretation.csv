@@ -1,0 +1,8 @@
+﻿feature,description,value_shap_spearman,mean_abs_shap
+A27,Operating profit / financial expenses,0.42663466732952077,0.7076498648070436
+A25,(Equity - share capital) / total assets,-0.8939234897386109,0.36959853145902116
+A38,Constant capital / total assets,-0.834746028449076,0.30665060352518636
+A39,Profit on sales / sales,-0.44016116240114217,0.27901978502823327
+A24,Gross profit over three years / total assets,-0.0974622837144388,0.19692582798794142
+A46,(Current assets - inventory) / short-term liabilities,-0.35391790015809976,0.17505964460913445
+A55,Working capital,0.11445380695077177,0.10098801582063605
